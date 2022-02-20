@@ -1,8 +1,9 @@
 import random
-from Hangman_Art import stages
+from Hangman_Art import stages, logo
 from Hangman_Words import word_List
 
 # Write Code 💻
+print(logo)
 random_Word = random.choice(word_List)
 word_Length = len(random_Word)
 end_Of_Game = False
