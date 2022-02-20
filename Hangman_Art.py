@@ -64,6 +64,3 @@ logo = '''
                     __/ |
                    |___/
 '''
-
-print(logo)
-print("\n")
